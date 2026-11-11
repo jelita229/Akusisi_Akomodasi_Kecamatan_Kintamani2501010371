@@ -1,0 +1,8 @@
+﻿masalah,jumlah_baris,keputusan
+Duplikat (osm_type + osm_id),0,"Tidak ada duplikat berdasarkan osm_type + osm_id, jadi tidak ada baris yang dibuang."
+Nama kosong,1,Baris tanpa nama dipertahankan karena objeknya tetap akomodasi yang valid (jenis dan koordinat ada) dan kolom nama boleh kosong. Nama tidak ditebak dari sumber lain; jumlahnya dilaporkan.
+Koordinat kosong,0,"Semua baris punya koordinat: node memakai lat/lon langsung, bangunan memakai titik tengah (out center). Tidak ada tindakan."
+Di luar batas Kintamani,0,Semua titik berada di dalam batas Kecamatan Kintamani (admin_level=6) berdasarkan pengecekan titik-dalam-poligon. Tidak ada tindakan.
+Kolom desa kosong,32,"Tag addr:village tidak diisi pada semua baris, jadi ringkasan per desa tidak bisa disusun. Kolom dipertahankan (boleh kosong) dan tidak diisi dari sumber lain. Ini keterbatasan atribut OSM."
+Kolom bintang kosong,31,Kolom hampir selalu kosong. Dipertahankan bertipe teks sesuai ketentuan (konversi angka dilakukan di tahap cleaning) dan tidak dipakai untuk analisis.
+Kolom jumlah_kamar kosong,30,"Dipertahankan bertipe teks sesuai ketentuan dan tidak diisi dari sumber lain. Karena banyak kosong, tidak dipakai untuk analisis."

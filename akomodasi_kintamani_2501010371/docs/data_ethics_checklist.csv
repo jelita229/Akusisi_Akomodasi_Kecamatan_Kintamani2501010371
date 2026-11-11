@@ -1,0 +1,8 @@
+﻿pemeriksaan,status,bukti_keterangan
+Sumber data berasal dari OpenStreetMap melalui Overpass API,Ya,Endpoint tercatat di docs/provenance.json
+Pengambilan data dilakukan secara wajar,Ya,"Retry dengan jeda 5, 10, 20 detik; User-Agent dicantumkan; query utama dijalankan 1 kali"
+Data kontak pribadi tidak diambil,Ya,"Fungsi ratakan tidak memuat tag phone/email/media sosial; kolom dataset: osm_type, osm_id, nama, jenis, lat, lon, desa, bintang, jumlah_kamar, website, url_osm"
+Data mentah disimpan tanpa diubah,Ya,Berkas osm_akomodasi_kintamani_20261111_071145.json; hash MD5 feb160ac5fea040288c3ae483a2ef071 tercatat di provenance.json
+Atribusi OpenStreetMap dicantumkan,Ya,© OpenStreetMap contributors di README dan laporan (isi nomor bagian/halaman bila sudah ada)
+Lisensi OpenStreetMap diperhatikan,Ya,"ODbL, tercatat di provenance.json"
+Sumber yang dilarang tidak digunakan,Ya,Hanya Overpass API dan data BPS; tidak ada scraping OTA atau halaman Google Maps

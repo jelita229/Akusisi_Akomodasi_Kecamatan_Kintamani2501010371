@@ -1,0 +1,6 @@
+﻿sumber,tahun_data,kategori,jumlah,keterangan
+BPS,2023,Hotel,19.0,https://banglikab.bps.go.id/id/publication/2024/09/26/3313f5ac27a3df4ff0ecbd03/kecamatan-kintamani-dalam-angka-2024.html
+BPS,2023,Penginapan,99.0,https://banglikab.bps.go.id/id/publication/2024/09/26/3313f5ac27a3df4ff0ecbd03/kecamatan-kintamani-dalam-angka-2024.html
+BPS,2023,Total,118.0,Hotel + penginapan
+OpenStreetMap,2026,Akomodasi,32.0,Hasil akuisisi melalui Overpass API
+Perbandingan,2023,Persentase kelengkapan (OSM / BPS x 100),27.12,"Perkiraan kasar: kategori BPS dan tag OSM tidak sama persis, tahun data berbeda"
